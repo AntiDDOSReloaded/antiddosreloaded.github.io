@@ -2,3 +2,6 @@
 body {
   padding-top: 3.5rem;
 }
+.jumbotron-home {
+  border-radius: 0;
+}
