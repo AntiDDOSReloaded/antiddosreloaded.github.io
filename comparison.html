@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <title>Home · GlobalGuard</title>
+    <title>Development Log · GlobalGuard</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/">
 
@@ -32,6 +32,21 @@
         background-color: 	#101010;
       }
 
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td, th {
+        border: 1px solid #101010;
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: #101010;
+      }
+
     </style>
     <!-- Custom styles for this template -->
     <link href="css/jumbotron.css" rel="stylesheet">
@@ -45,8 +60,8 @@
 
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home  <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="https://discord.gg/8smPFPkYwE">Discord</a>
@@ -57,8 +72,8 @@
       <li class="nav-item">
         <a class="nav-link" href="dev.html">Development Log</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="comparison.html">Comparison</a>
+      <li class="nav-item active">
+        <a class="nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>
@@ -69,33 +84,46 @@
   <!-- Main jumbotron for a primary marketing message or call to action -->
   <div class="jumbotron text-white">
     <div class="container">
-      <h1 class="display-3">GlobalGuard</h1>
-      <p>A DDoS Protection and Migration for everyone.</p>
+      <h1 class="display-3">Comparison</h1>
+      <p>Check the comparison between our service and others.</p>
     </div>
   </div>
 
   <div class="container">
-    <!-- Example row of columns -->
-    <div class="row">
-      <div class="col-md-4">
-        <h2>About GlobalGuard</h2>
-        <p>We provide Free and Paid Minecraft DDoS protection. </p>
-        <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2>FAQ</h2>
-        <p>Will this service be free?
-          There will be a free plan with no bandwidth limit at all. The free plan is good for small servers who just need DDoS protection.
-          
-          How much is the paid plan?
-          Take a look at the plans section</p>
-        <p><a class="btn btn-primary" href="pricing.html" role="button">View details &raquo;</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2>Home hosting policy</h2>
-        <p>You will recieve help with servers running on a residential connection, however, if you encounter any ping or connection issues we reserve the right to refuse service</p>
-        <p><a class="btn btn-primary" href="#" role="button">Learn more about the policy &raquo;</a></p>
-      </div>
+    <h2>How we compare</h2>
+
+    <table>
+      <tr>
+        <th>Feature</th>
+        <th>GlobalGuard FREE</th>
+        <th>TCPShield FREE</th>
+        <th>GlobalGuard PRO</th>
+        <th>CosmicGuard PAID</th>
+        <th>TCPShield PRO</th>
+        <th>TCPShield Premium</th>
+        <th>TCPShield ENTERPRISE</th>
+      </tr>
+      <tr>
+        <td>Bandwidth</td>
+        <td>UNLIMITED</td>
+        <td>1TB only</td>
+        <td>UNLIMITED</td>
+        <td>Paid per gigabyte</td>
+        <td>2.5TB</td>
+        <td>Unlimited</td>
+        <td>Unlimited</td>
+      </tr>
+      <tr>
+        <td>Domain limit</td>
+        <td>Still deciding</td>
+        <td>3</td>
+        <td>Still deciding</td>
+        <td>Unlimited</td>
+        <td>10</td>
+        <td>25</td>
+        <td>Unlimited</td>
+      </tr>
+    </table>
     </div>
 
     <hr>
@@ -109,4 +137,19 @@
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+</style>
+</head>
+<body>
+
+
+
+</body>
 </html>
