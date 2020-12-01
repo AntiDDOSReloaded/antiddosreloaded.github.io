@@ -1,4 +1,4 @@
-# Website-Beta
-The website still has the XeraShield name, should be fixed soon.
+# Website
+Work in progress website! 
 
 Style: Bootstrap 4, and Materia or something
