@@ -1,4 +1,4 @@
 # Website
-Work in progress website! 
+Our awesome website! 
 
-Style: Bootstrap 4, and Materia or something
+Style: Bootstrap 4, and Materia
