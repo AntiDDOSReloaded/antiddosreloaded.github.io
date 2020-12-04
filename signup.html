@@ -15,8 +15,8 @@
     <meta property="og:image" content="https://antiddosreloaded.github.io/website/image/logo.png" />
     <meta name="theme-color" content="#18132A">
 
-    <title>Home · AntiDDOS Reloaded</title>
-    <meta property="og:title" content="Home · AntiDDOS Reloaded" />
+    <title>Sign Up · AntiDDOS Reloaded</title>
+    <meta property="og:title" content="Sign Up · AntiDDOS Reloaded" />
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/">
 
@@ -34,13 +34,13 @@
             -ms-user-select: none;
             user-select: none;
         }
-
+        
         @media (min-width: 768px) {
             .bd-placeholder-img-lg {
                 font-size: 3.5rem;
             }
         }
-
+        
         .jumbotron {
             background-color: #101010;
         }
@@ -49,24 +49,23 @@
     <link href="css/jumbotron.css" rel="stylesheet">
 </head>
 
-<body class="text-white bg-dark bg-dark">
+<body class="text-white bg-dark">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="#">AntiDDOS Reloaded</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
                     <a class="nav-link" href="plans.html">Plans</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="dev.html">Development Log</a>
+                    <a class="nav-link" href="dev.html">Development Log <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="comparison.html">Comparison</a>
@@ -82,40 +81,29 @@
     </nav>
 
     <main role="main">
-
-        <div class="jumbotron text-white jumbotron-home">
+        <div class="jumbotron">
             <div class="container">
-                <h2 class="display-3"><strong>AntiDDOS Reloaded</strong></h2>
-                <p>Building the next big anti ddos for minecraft servers!</p>
+                <h2 class="display-3"><strong>Sign Up</strong></h2>
+                <p>Already a member?<a href="login.html"> Log In</a></p>
             </div>
         </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2>About AntiDDOS Reloaded</h2>
-                    <p>We provide Free Minecraft DDoS protection. Our goal is to provide a free alternative to tcpshield
-                        that allows way more traffic. This service hasn't launched yet, but prepare for something big!
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <h2>Plans</h2>
-                    <p>As the service isn't ready yet, there is no planning for plans or similar. Please don't ask for
-                        an ETA. It will come out when it does.</p>
-                    <p><a class="btn btn-primary" href="plans.html" role="button">View details &raquo;</a></p>
-                </div>
-                <div class="col-md-4">
-                    <h2>Dev Log</h2>
-                    <p>We will update our current progress sometimes to let you know how close we are to finish. ;)</p>
+        <form action="/blah.php" method="post">
+            <div class="login">
+                <center>
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Choose a Username" name="uname" required></br>
+                    <label for="eml"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Your Email" name="eml" required><br>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Choose a Password" name="psw" required><br>
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Confirm Your Password" name="psw" required><br>
                     <br>
-                    <p><a class="btn btn-primary" href="dev.html" role="button">View details &raquo;</a></p>
-                </div>
+                    <button type="submit">Login</button><br>
+                    <br>
+                </center>
             </div>
-
-            <hr>
-
-        </div>
-
+        </form>
     </main>
 
     <footer class="container">
@@ -125,9 +113,7 @@
           <p>&copy; AntiDDOS Reloaded 2020</p>
         </center>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script>
         window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')
     </script>
